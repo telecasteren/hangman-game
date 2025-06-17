@@ -1,0 +1,29 @@
+{
+  "name": "first-elm-app",
+  "version": "1.0.0",
+  "description": "This project is bootstrapped with [Create Elm App](https://github.com/halfzebra/create-elm-app).",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "elm-live src/Main.elm --open --pushstate -- --output=elm.js",
+    "build": "elm make src/Main.elm --optimize --output=elm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telecasteren/hangman-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/telecasteren/hangman-game/issues"
+  },
+  "homepage": "https://github.com/telecasteren/hangman-game#readme",
+  "devDependencies": {
+    "elm": "^0.19.1-6",
+    "elm-live": "^4.0.2"
+  }
+}

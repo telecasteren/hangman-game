@@ -25,13 +25,29 @@ Wrong guesses will stack below the alphabet buttons.
 export NODE_OPTIONS=--openssl-legacy-provider
 ```
 
-3. Start the app with this command<br/>
+3. Install the dependencies
 
 ```bash
-elm-app start
+install npm
 ```
 
-**The console will provide a link to open your browser: http://localhost:3000/**
+**This installs:**
+
+- elm
+- elm-live
+
+4. Start the app by running<br/>
+
+```bash
+npm start
+```
+
+**This will:**
+
+- Compile src/Main.elm
+- Generate elm.js (if not existing)
+- Open the browser with the app
+- Enable live reloading on save
 
 <hr>
 
